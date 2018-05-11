@@ -1,0 +1,248 @@
+body {
+    background: #ddd url('view/body.png') repeat scroll top left;
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    color: #666;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+main {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px 10px 30px;
+    background-color: #fff;
+}
+
+iframe {
+    height: 350px;
+    width: 500px;
+}
+/** element defaults **/
+table {
+    width: 100%;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px 10px;
+}
+
+th {
+    color: #fff;
+    background: #FF6633 none repeat-x scroll left top;
+    border-bottom: 2px solid #FF4000;
+}
+
+td {
+    border-bottom: 1px solid #ccc;
+}
+
+p {
+    line-height: 1.9em;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+a {
+    color: #FF6633;
+}
+
+a:hover {
+    color: #FF4000;
+}
+
+a:focus {
+    outline: none;
+}
+
+fieldset {
+    display: block;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 13px;
+    padding-right: 10px;
+    color: #333;
+}
+
+fieldset form {
+    padding-top: 15px;
+}
+
+fieldset label {
+    float: left;
+    width: 150px;
+}
+
+label, input{
+    display: block;
+}
+label, textarea{
+    display: block;
+}
+
+form input, form select, form textarea {
+    padding: 5px;
+    color: #333333;
+    border: 1px solid #ddd;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    background-color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+form textarea {
+    height: 100px;
+    width: 270px;
+}
+
+form input.submit {
+    border: none;
+    background: #FF6633 none repeat-x scroll left top;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 6px 10px;
+    font-size: 12px;
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: 1px;
+    width: auto;
+    overflow: visible;
+}
+
+div.comment{
+    border-style: solid;
+    background-color: ivory;
+}
+
+div.comment form input.submit {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+div.comment p {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+div.comment form.edit{
+    float:left;
+    margin-right:5px;
+}
+
+.notice{
+    font-weight: 600;
+    font-style: italic;
+}
+
+h1 {
+    color: #000;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+h2 {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    letter-spacing: 0px;
+    font-weight: normal;
+    padding: 0 0 5px;
+    margin: 0;
+}
+
+h3 {
+    color: #FF4000;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #FF794D;
+}
+
+h5 {
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: #ccc;
+}
+
+ul, ol {
+    margin: 0 0 35px 35px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+li ol, li ul {
+    font-size: 1.0em;
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+
+nav {
+    height: 33px;
+    width: 800px;
+    background-color: #cfcfcf;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 45px;
+}
+
+nav ul li {
+    float: left;
+    display: block;
+    padding: 0;
+}
+
+nav ul li a:hover, #nav ul li.selected {
+    background-color:#FF6633;
+}
+
+nav ul li a, nav ul li p {
+    color: #fff;
+    display: block;
+    border-right: 1px solid #fff;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav ul li.start a {
+    border-left: none;
+}
+
+nav ul li.end a {
+    border-right: none;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.clear {
+    clear: both;
+}
